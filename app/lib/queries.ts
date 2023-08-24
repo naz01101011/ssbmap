@@ -1,4 +1,4 @@
-export const slugsQuery = `*[defined(slug.current)]{
+export const slugsQuery = `*[defined(slug.current)] | order(publishedAt desc) {
     _type == "post" => {
       "slug": "stiri/" + slug.current
     },
