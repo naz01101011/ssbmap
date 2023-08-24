@@ -21,7 +21,7 @@ export const loader: LoaderFunction = async ({ request }) => {
 };
 
 const renderXML = (slugs: { slug?: string }[]) => {
-  const url = "https://www.heavyibt.com";
+  const url = "https://www.stiridesibiu.ro";
 
   const sourceXML = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
